@@ -1,5 +1,3 @@
-package zad2;
-
 public class Fraction {
 
 	private int brojnik;
