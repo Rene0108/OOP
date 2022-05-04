@@ -107,12 +107,12 @@ public class Fraction {
 		return new Fraction(b, n);
 	}
 	
-	public String toString()  {
+	public String toString() {
 		return String.format("%d / %d", this.getBrojnik(), this.getNazivnik());
 	}
 	
 	private static int gcd(int x, int y) {
 		return (y == 0) ? x : gcd(y, x % y);
-		}
+	}
 	
 }
