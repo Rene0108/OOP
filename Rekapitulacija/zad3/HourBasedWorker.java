@@ -25,8 +25,7 @@ public class HourBasedWorker extends Worker {
 		double amount;
 		if (workingHours <= MONTHLY_WORKING_HOURS) {
 			amount = workingHours * salaryPerHour;
-		}
-		else {
+		} else {
 			amount = (MONTHLY_WORKING_HOURS * salaryPerHour) + ((workingHours - MONTHLY_WORKING_HOURS) * salaryPerHour * OVERTIME_FACTOR);
 		}
 		bm.payment(this, amount);
