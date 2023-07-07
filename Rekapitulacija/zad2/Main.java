@@ -12,7 +12,7 @@ public class Main {
 		    System.out.println(f);     //ispisuje: 11 / 12
 
 		    f = f1.subtract(f2);
-	  	  System.out.println(f);     //ispisuje: -5 / 12
+	  	    System.out.println(f);     //ispisuje: -5 / 12
 
 		    System.out.println(f2.invert().negate());     // -3/2
 		    f = f1.multiply(f2);
